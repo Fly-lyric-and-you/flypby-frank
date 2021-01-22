@@ -1,0 +1,664 @@
+
+body 
+{
+	background-color:black;
+}
+
+h5
+{
+	color:white;
+ 	display:block;
+ 	font: -apple-system-caption1;
+ 	font-size: 10px;
+ 	margin-block-start:0em;
+ 	margin-block-end:0em;
+ 	margin-inline-start: 0em;
+ 	margin-inline-end: 0em;
+ 	font-weight: bold;
+}
+
+.partie_album
+{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album .répart1
+{
+	display: grid;
+	float: left;
+	width: 400px;
+	margin-right: 5px;
+	/*margin: 0 auto;*/
+	background: black;
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album_2
+{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album .répart1 .répart_articles
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 2.5em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.partie_album .répart1 .répart_articles_text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 1.5em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.partie_album .répart2
+{
+	display: grid;
+	float: left;
+	width: 400px;
+	margin-left: 20px;
+	/*margin: 0 auto;*/
+	background: black;
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album .répart2 .répart_articles
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 2.5em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.partie_album .répart2 .répart_articles_text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 1.5em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.partie_album .répart3
+{
+	display: grid;
+	float: left;
+	width: 400px;
+	margin-left: 15px;
+	/*margin: 0 auto;*/
+	background: black;
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+}
+
+.partie_album .répart3 .répart_articles
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 2.5em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.partie_album .répart3 .répart_articles_text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 1.5em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.partie_album .img_album
+{
+	margin-left:0px;
+	margin-top: 400px;
+}
+
+.partie_album .partie_album_2 .album1
+{
+	display: block;
+	float: left;
+	width: 640px;
+	height: 700px;
+	margin-left: 5px;
+	/*margin: 0 auto;*/
+	background: linear-gradient(rgb(38, 38, 38), black 60.08%);
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+	/*animation-duration: 10s;
+	animation-name:slide;*/
+}
+
+@keyframes slide 
+
+{
+	from {
+		margin-top: 0px;
+	}
+
+	to {
+		margin-top: 100px;
+	}
+}
+
+.partie_album .partie_album_2 .album2
+{
+	display: block;
+	float: right;
+	width: 640px;
+	height: 700px;
+	margin-right: 5px;
+	/*margin: 0 auto;*/
+	background: linear-gradient(rgb(38, 38, 38), black 60.08%);
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+	/*animation-duration: 7s;
+	animation-name:slide;*/
+}
+
+.partie_album .partie_album_2 .album3
+{
+	display: block;
+	float: left;
+	width: 640px;
+	height: 700px;
+	margin-left: 5px;
+	/*margin: 0 auto;*/
+	background: linear-gradient(rgb(38, 38, 38), black 60.08%);
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+	/*animation-duration: 3s;
+	animation-name:slide;*/
+}
+
+.partie_album .partie_album_2 .album1 .titre_chanson
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 7em;
+ 	margin-block-start:2px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .partie_album_2 .album1 .réalisation
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 2em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .partie_album_2 .album2 .titre_chanson
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 7em;
+ 	margin-block-start:2px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .partie_album_2 .album2 .réalisation
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 2em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .partie_album_2 .album3 .titre_chanson
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 7em;
+ 	margin-block-start:2px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .partie_album_2 .album3 .réalisation
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 2em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .partie_album_2 .titre_partie_album
+{
+	color:black;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 8em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.partie_album .partie_album_2 .album .titre_chanson
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 10em;
+ 	margin-block-start:2px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+}
+
+.partie_album .album .musique
+{
+	margin-top: 50px;
+}
+
+.choix_couleur
+{
+	display: block;
+	width: 1300px;
+	height: 1000px;
+	/*margin: 0 auto;*/
+	background: rgb(173, 139, 151);
+	margin-top: 100px;
+	text-align: center;
+	align-content: center;
+}
+
+.choix_couleur .choix_couleur_text
+{
+	color:black;
+ 	display: block;
+ 	width: 800px;
+ 	font: -apple-system-caption1;
+ 	font-size: 3.3em;
+ 	margin-block-start:2500px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:250px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:0px;
+}
+
+.articles
+{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	align-content: center;
+}
+
+.articles .img_articles
+{
+	margin-top:200px;
+}
+
+.articles .partie_article .titre_partie_album
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 8em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.articles .partie_article .partie_article_para1
+{
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(black, black 38.24%); 
+	text-align: left;
+	align-content: center;
+}
+
+.articles .partie_article .partie_article_para2
+{
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(black, black 38.24%); 
+	text-align: left;
+	align-content: center;
+}
+
+.articles .partie_article .partie_article_para3
+{
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(black, black 38.24%); 
+	text-align: left;
+	align-content: center;
+}
+
+.articles .partie_article .partie_article_para1 .text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 50px;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.articles .partie_article .partie_article_para2 .text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 50px;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.articles .partie_article .partie_article_para3 .text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 50px;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.articles .img_articles
+{
+	margin-top:900px;
+}
+
+.articles .img_articles_text
+{
+	margin-top:200px;
+}
+
+.découverte .img_articles_text
+{
+	margin-top:200px;
+}
+
+.découverte .img_découverte
+{
+	margin-top:200px;
+}
+
+.partie_découverte .album
+{
+	width: 800px;
+	margin: 0 auto;
+	background-color: black;
+	text-align: center;
+	align-content: center;
+}
+
+.découverte .partie_découverte .titre_découverte_album
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 8em;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.découverte .partie_découverte .partie_découverte_para1
+{
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(black, black 38.24%);
+	text-align: right;
+	align-content: center;
+}
+
+.découverte .partie_découverte .partie_découverte_para2
+{
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(black, black 38.24%);
+	text-align: right;
+	align-content: center;
+}
+
+.découverte .partie_découverte .partie_découverte_para3
+{
+	width: 900px;
+	margin: 0 auto;
+	background: linear-gradient(black, black 38.24%);
+	text-align: right;
+	align-content: center;
+}
+
+.découverte .partie_découverte .partie_découverte_para1 .text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 50px;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.découverte .partie_découverte .partie_découverte_para2 .text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 50px;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.découverte .partie_découverte .partie_découverte_para3 .text
+{
+	color:white;
+ 	display: block;
+ 	font: -apple-system-caption1;
+ 	font-size: 50px;
+ 	margin-block-start:0px;
+ 	margin-block-end:0px;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+ 	font-weight: bold;
+ 	padding-top:0px;
+ 	padding-bottom:60px;
+}
+
+.découverte .img_articles
+{
+	margin-top:200px;
+}
+
+.bas_de_page
+{
+	width: 1300px;
+	margin: 0 auto;
+	background-color: white;
+}
+
+.bas_de_page .logo_bas
+{
+	float: left;
+	display: block;
+	padding: 10px 10px;
+	margin-top: 10px;
+}
+
+.bas_de_page .d_ligne
+{
+	color:white;
+	font: -apple-system-caption1;
+	font-size: 1.5em;
+	display: block;
+	padding-top: 1px;
+	margin-block-start:0em;
+ 	margin-block-end:0em;
+ 	margin-inline-start:0px;
+ 	margin-inline-end:0px;
+}
+
+.bas_de_page .text_fin
+{
+	float:left;
+	margin-left: 0px;
+	width: 400px;
+	height: 100px;
+	background-color: black;
+	text-align: left;
+	align-content: center;
+	margin-block-start:15px;
+}
+
+.bas_de_page .CGU .text_bas1
+{
+	float:right;
+	padding-top: 25px;
+	width: auto;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-right: 100px;
+}
+
+.bas_de_page .contact .text_bas2
+{
+	float:left;
+	padding-top: 10px;
+	width: auto;
+	height: 60px;
+	background-color: black;
+	text-align: center;
+	align-content: center;
+	margin-left: auto;
+	margin-left: 200px;
+}
+
+.img_fin
+{
+	margin-top: 250px;
+	padding: 50px 0px;
+}
